@@ -43,14 +43,17 @@
 	<false/>
 
 	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to Gallery</string>
     <key>NSCameraUsageDescription</key>
+    <string>This app needs access to Camera</string>
     <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs access Microphone</string>
+
 
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>This app needs access to location when open.</string>
+    <string>Please allow location access</string>
     <key>NSLocationAlwaysUsageDescription</key>
-    <string>This app needs access to location when in the background.</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>This app needs access to location when open and in the background.</string>
+    <string>Please allow location access</string>
+
 </dict>
 </plist>
