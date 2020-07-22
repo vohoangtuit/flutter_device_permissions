@@ -42,6 +42,7 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 
+<!-- camera and file gallery-->
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app needs access to Gallery</string>
     <key>NSCameraUsageDescription</key>
@@ -49,11 +50,14 @@
     <key>NSMicrophoneUsageDescription</key>
     <string>This app needs access Microphone</string>
 
-
+<!-- google map, location-->
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>Please allow location access</string>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>Please allow location access</string>
+
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
 
 </dict>
 </plist>
